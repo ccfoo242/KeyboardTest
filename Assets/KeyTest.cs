@@ -19,7 +19,7 @@ public class KeyTest : MonoBehaviour
         }
         else
         {
-            _inputAction.performed += OnAnyKeyPressed; ;
+            _inputAction.performed += OnAnyKeyPressed;
         }
     }
 
