@@ -1,0 +1,74 @@
+{
+    "name": "KeyboardControls",
+    "maps": [
+        {
+            "name": "MyMap",
+            "id": "210a30fb-908e-4089-ab63-3e9341ac83cd",
+            "actions": [
+                {
+                    "name": "PressOnly",
+                    "type": "Button",
+                    "id": "13a633fb-8017-4835-8430-43803929e934",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReleaseOnly",
+                    "type": "Button",
+                    "id": "bb6f5c0a-33de-4983-a4ec-87ade1a9c264",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PressAndRelease",
+                    "type": "Button",
+                    "id": "4f53e5b9-c258-4c96-9ac0-235e82a16dc3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "84db0a77-6613-416f-8d47-caa2df2394dc",
+                    "path": "<Keyboard>/#(Y)",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PressOnly",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ccb3812d-9051-4c33-b66c-59a51c60403a",
+                    "path": "<Keyboard>/y",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReleaseOnly",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ab6786b9-8025-47ea-a680-963577779d9c",
+                    "path": "<Keyboard>/y",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PressAndRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
